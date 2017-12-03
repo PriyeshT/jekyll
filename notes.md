@@ -1,7 +1,7 @@
-#Jekyll Notes
+# Jekyll Notes
 -------------
 
-##Getting Started
+## Getting Started
 
 To create a new jekyll site at path
 > jekyll new <PATH>
@@ -18,7 +18,7 @@ To create Jekyll site without any theme use,
 For any help 
 > jekyll new --help
 
-##Build
+## Build
 
 To generate current folder into ./site
 > jekyll build
@@ -32,10 +32,10 @@ To generate <source> folder into <destination>
 To generate current folder into ./site and watch for changes, and regenerate automatically
 > jekyll build --watch
 
-###NOTE
+### NOTE
 Desitnation folders are cleaned, by default, when the site is built. Files not created by your site will also be cleaned. To keep the files that you have created in <destination>, you need to specify such files in <keep_files> configuration directive.
 
-##Serve
+## Serve
 
 To start the local built in development server at http://localhost:4000/.
 Auto-regeneration is enabled by default. Use --no-watch to disable.
@@ -44,9 +44,8 @@ Auto-regeneration is enabled by default. Use --no-watch to disable.
 To serve from <destination>
 > jekyll serve --destination <destination>
 
-##Directory Structure
+## Directory Structure
 
 Jekyll sites directory structure -  From [Jekyll Documentation](https://jekyllrb.com/docs/structure/)
 
-![Jekyll Directory Structure]
-(https://screenshots.firefox.com/Hw16R9QKpzUyqkko/jekyllrb.com)
+[Screenshot](https://screenshots.firefox.com/Hw16R9QKpzUyqkko/jekyllrb.com)
