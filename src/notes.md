@@ -64,10 +64,12 @@ defaults - default front-matter for your pages. scope/values pairs.
 YAML front matter.
 Valid YAML set between triple-dashed lines
 
+```
 ---
 layout: post
 title: Blogging like a hacker
 ---
+```
 
 ### Predefined Global variables for YAML
 
@@ -101,6 +103,7 @@ How to make a template to display posts specific to a category or tag?
 
 1. Create a template in _layouts as category.pug
 
+```
 ---
 layout: page
 ---
@@ -108,6 +111,7 @@ layout: page
 |{% for post in site.categories[page.category] %}
 a(href='{{ post.url | absolute_url }}') {{ post.title }}
 |{% endfor %}
+```
 
 2. In your root directory of Jekyll install, create a directory called category and create templates for each of your category/tag
 
