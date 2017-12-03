@@ -112,11 +112,13 @@ a(href='{{ post.url | absolute_url }}') {{ post.title }}
 2. In your root directory of Jekyll install, create a directory called category and create templates for each of your category/tag
 
 Include at least following YAML Front matter in your templates:
+```
 ---
 layout: category
 title: Categories
 category: categories
 ---
+```
 
 3. The listing pages will be accessible at {baseUrl}/category/categories.html
 
