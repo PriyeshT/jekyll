@@ -1,1 +1,7 @@
-node_modules/
+_site
+dist
+.pug-cache
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+Gemfile
